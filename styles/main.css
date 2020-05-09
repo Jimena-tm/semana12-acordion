@@ -1,0 +1,28 @@
+h2{
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.acordion {
+    background-color: #c45800;
+    color: #e6e0dd;
+    cursor: pointer;
+    padding: 1.125rem;
+    width: 100%;
+    text-align: center;
+    outline: none;
+    transition: 0.4s;
+  }
+
+  .active,
+  .accordion:hover {
+    background-color: rgb(61, 180, 97);
+    color: white;
+  }
+
+  .content {
+    padding: 0 1.125rem;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
