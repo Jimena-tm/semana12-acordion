@@ -5,9 +5,9 @@ h2{
 
 .acordion {
     background-color: #c45800;
-    color: #e6e0dd;
+    color: #f3eeec;
     cursor: pointer;
-    padding: 1.125rem;
+    padding: 1.5rem;
     width: 100%;
     text-align: center;
     outline: none;
@@ -16,13 +16,14 @@ h2{
 
   .active,
   .accordion:hover {
-    background-color: rgb(61, 180, 97);
+    background-color: rgb(38, 134, 34);
     color: white;
   }
 
   .content {
     padding: 0 1.125rem;
     background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: none;
     overflow: hidden;
   }
